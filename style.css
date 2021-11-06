@@ -1,0 +1,93 @@
+* body {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color:blue;
+  width: 100%;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+input {
+  border-radius: 15px;
+}
+.calculator {
+  display: flex;
+  border-radius: 15px;
+  background-color:silver;
+  padding: 20px;
+  width: 40%;
+}
+
+.labels {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: grey;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background-color: grey;
+}
+.appearance {
+  display: flex;
+  justify-content: space-evenly;
+  height: 400px;
+}
+
+form { 
+  width: 100%;
+  background-color: grey;
+}
+
+.level {
+  height: 30px;
+}
+
+.rounded {
+  border-radius: 15px;
+}
+
+.btn-calculate {
+  background-color:green;
+  height: 40px;
+  width: 100px;
+}
+
+
+.btn-reset {
+  background-color:red;
+  height: 40px;
+  width: 100px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
